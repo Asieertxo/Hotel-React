@@ -1,17 +1,42 @@
 .mainheader{
-    width: 80%;
+    width: 60%;
     background-color: chartreuse;
     display: flex;
     justify-content: space-between;
 
     &-logo{
+        padding: 2rem;
         width: 5rem;
         height: 5rem;
-        padding: 5rem;
     }
 
     &-navegation{
+        flex: 0 0 75%;
+
         display: flex;
         justify-content: space-between;
+        padding-right: 5rem;
+        padding-top: 2rem;
+
+        &_menu {
+            padding-right: 5rem;
+            padding-top: 2rem;
+            list-style: none;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        &_menu a {
+            color: white;
+            text-decoration: none;
+            background-image: linear-gradient(currentColor, currentColor);
+            background-position: 0% 100%;
+            background-repeat: no-repeat;
+            background-size: 0% 2px;
+            transition: background-size 1s
+        }
+        &_menu a:hover{
+            background-size: 100% 2px;
+            color: purple;
+        }
     }
 }
