@@ -1,14 +1,16 @@
-import "./Item.scss"
+import "./Base.scss";
+import "./Header.scss";
+import logo from "./../img/logo.png";
 
 function Header() {
   return (
-    <header className="mainheder">
-      <img src="./../img/logo.png" className="logo"></img>
-      <nav className="navegation"> 
-                <li className="navegation-menu"><a href="#rooms">Habitaciones</a></li>
-                <li className="navegation-menu"><a href="#events">Eventos</a></li>                    
-                <li className="navegation-menu"><a href="#tournaments">Torneos</a></li>
-                <li className="navegation-menu"><a href="#booking">Reservas</a></li>
+    <header className="mainheader">
+      <img src={logo} className="mainheader-logo"></img>
+      <nav className="mainheader-navegation"> 
+                <li className="mainheader-navegation_menu"><a href="#rooms">Habitaciones</a></li>
+                <li className="mainheader-navegation_menu"><a href="#events">Eventos</a></li>                    
+                <li className="mainheader-navegation_menu"><a href="#tournaments">Torneos</a></li>
+                <li className="mainheader-navegation_menu"><a href="#booking">Reservas</a></li>
             </nav>
     </header>
   );

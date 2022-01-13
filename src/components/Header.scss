@@ -1,0 +1,17 @@
+.mainheader{
+    width: 80%;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: space-between;
+
+    &-logo{
+        width: 5rem;
+        height: 5rem;
+        padding: 5rem;
+    }
+
+    &-navegation{
+        display: flex;
+        justify-content: space-between;
+    }
+}
