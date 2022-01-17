@@ -16,3 +16,10 @@ html {
     font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
 
 }
+
+.mainheader{
+    height: 100vh;
+    background-image: url('./../img/portada.jpg');
+    background-size: cover;
+    background-position: top;
+}

@@ -1,8 +1,4 @@
 .mainheader{
-    width: 60%;
-    background-color: chartreuse;
-    display: flex;
-    justify-content: space-between;
 
     &-logo{
         padding: 2rem;
@@ -11,18 +7,15 @@
     }
 
     &-navegation{
-        flex: 0 0 75%;
-
+        width: 60rem;
         display: flex;
         justify-content: space-between;
+        align-items: center;
         padding-right: 5rem;
-        padding-top: 2rem;
 
         &_menu {
-            padding-right: 5rem;
-            padding-top: 2rem;
             list-style: none;
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-weight: bold;
         }
         &_menu a {
