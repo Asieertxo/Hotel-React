@@ -11,13 +11,13 @@
         &__date{
             font-size: 2rem;
             border: none;
-            border-bottom: 0.1rem solid white;
+            border-bottom: 0.1rem solid var(--color-white);
             background: none;
             margin-right: 2rem;
             padding: 0.5rem;
             width: 19rem;
             outline: none;
-            color: white;
+            color: var(--color-white);
             transition: 250ms width ease, 250ms border-color ease;
             cursor: pointer;
 
@@ -26,7 +26,7 @@
             }
             &:focus{
                 width: 23rem;
-                border-color: pink;
+                border-color: var(--color-pink);
             }
         }
         & input[type="date"]::-webkit-calendar-picker-indicator{
@@ -39,9 +39,9 @@
         width: 10rem;
         height: 5rem;
         font-size: 2rem;
-        color: white;
+        color: var(--color-white);
         background-color: transparent;
-        border: 0.3rem solid pink;
+        border: 0.3rem solid var(--color-pink);
         border-radius: 1.5rem;
         cursor: pointer;
         animation-name: moverAbajo;
@@ -49,14 +49,14 @@
         transition: all 0.2s;
 
         &:hover{
-            color: pink;
-            border: 0.3rem solid white;
+            color: var(--color-pink);
+            border: 0.3rem solid var(--color-white);
             transform: translateY(-0.3rem);
-            box-shadow: 0 0.5rem 2rem pinkA;
+            box-shadow: 0 0.5rem 2rem var(--color-pink)A;
         }
         &:active{
             transform: translateY(-0.2rem);
-            box-shadow: 0 0.5rem 2rem pink;
+            box-shadow: 0 0.5rem 2rem var(--color-pink);
         }
     }
 }

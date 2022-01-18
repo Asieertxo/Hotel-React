@@ -21,7 +21,7 @@
             font-weight: bold;
         }
         &_menu a {
-            color: white;
+            color: var(--color-white);
             text-decoration: none;
             background-image: linear-gradient(currentColor, currentColor);
             background-position: 0% 100%;
@@ -31,7 +31,7 @@
         }
         &_menu a:hover{
             background-size: 100% 2px;
-            color: purple;
+            color: var(--color-pink);
         }
     }
 }
