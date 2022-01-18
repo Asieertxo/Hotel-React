@@ -1,0 +1,61 @@
+.mainheader{
+
+    &-reservation{
+        display: flex;
+        justify-content: center;
+        //background-color: yellowgreen;
+        padding: 1rem;
+
+
+        &__date{
+            font-size: 2rem;
+            border: none;
+            border-bottom: 0.1rem solid white;
+            background: none;
+            margin-right: 2rem;
+            padding: 0.5rem;
+            width: 19rem;
+            outline: none;
+            color: white;
+            transition: 250ms width ease, 250ms border-color ease;
+            cursor: pointer;
+
+            &:hover{
+                width: 21rem;
+            }
+            &:focus{
+                width: 23rem;
+                border-color: pink;
+            }
+        }
+        & input[type="date"]::-webkit-calendar-picker-indicator{
+            filter: invert(1);
+        }
+    }
+}
+
+
+.boton{
+    width: 10rem;
+    height: 5rem;
+    font-size: 2rem;
+    color: white;
+    background-color: transparent;
+    border: 0.3rem solid pink;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    animation-name: moverAbajo;
+    animation-duration: 2s;
+    transition: all 0.2s;
+
+    &:hover{
+        color: pink;
+        border: 0.3rem solid white;
+        transform: translateY(-0.3rem);
+        box-shadow: 0 0.5rem 2rem pinkA;
+    }
+    &:active{
+        transform: translateY(-0.2rem);
+        box-shadow: 0 0.5rem 2rem pink;
+    }
+}
