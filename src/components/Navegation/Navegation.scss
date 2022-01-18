@@ -4,6 +4,7 @@
         padding: 2rem;
         width: 5rem;
         height: 5rem;
+        position: relative;//obligado por oscurecer fondo
     }
 
     &-navegation{
@@ -12,6 +13,7 @@
         justify-content: space-between;
         align-items: center;
         padding-right: 5rem;
+        position: relative;//obligado por oscurecer fondo
 
         &_menu {
             list-style: none;

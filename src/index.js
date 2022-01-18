@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import "./components/Base.scss";
+import "./components/Variables.scss";
 
 import Navegation from './components/Navegation/Navegation';
 import Title from './components/Title/Title';
 import Reservation from './components/Reservation/Reservation';
+import Arrows from './components/Arrows/Arrows';
 
 ReactDOM.render(
   <>
@@ -12,6 +14,7 @@ ReactDOM.render(
       <Navegation />
       <Title />
       <Reservation />
+      <Arrows />
 
       
     </header>
